@@ -7,7 +7,7 @@ Widget customText(
     double fontSize = 25,
     FontWeight fontWeight = FontWeight.w400}) {
   return Text(
-    key: Key("custom_text$key"),
+    //key: Key("custom_text$key"),
     text,
     style:
         TextStyle(color: textColor, fontSize: fontSize, fontWeight: fontWeight),
